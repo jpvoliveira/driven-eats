@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+
+header {
+  height: 92px;
+
+  background-color: #cf2b2b;
+
+  padding-left: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: fixed;
+  width: 100%;
+
+  z-index: 9999;
+}
+.comidaimg {
+  border-radius: 4px;
+}
+.titulo {
+  font-family: 'Righteous';
+  font-weight: 400;
+  font-size: 44px;
+  color: #ffffff;
+}
+.subtitulo {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+main {
+  background-color: #e5e5e5;
+
+  padding-top: 92px;
+  padding-bottom: 108px;
+}
+.menu1 {
+  height: 289px;
+
+  padding-top: 31px;
+  padding-bottom: 27px;
+
+  overflow: hidden;
+}
+.prato {
+  font-family: 'Righteous';
+  font-weight: 400;
+  font-size: 26px;
+  color: #333333;
+
+  margin-left: 19px;
+}
+.opcoescomida,
+.opcoesbebida,
+.opcoessobremesa {
+  overflow-x: scroll;
+}
+.opcaocomida1 {
+  height: 216px;
+  width: 172px;
+
+  background-color: #ffffff;
+
+  border-radius: 9px;
+
+  padding: 18px 14px 13px 14px;
+
+  margin-top: 17px;
+  margin-left: 17px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nome {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  color: #333333;
+}
+.descricao {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  color: #a6a6a6;
+}
+.preço {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.opcoescomida,
+.opcoesbebida,
+.opcoessobremesa {
+  display: flex;
+}
+footer {
+  height: 92px;
+
+  margin-top: 16px;
+
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+.enviar {
+  height: 61px;
+  width: 364px;
+
+  background-color: #cbcbcb;
+
+  border-radius: 50px;
+  border: none;
+
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+
+  text-decoration: none;
+  text-align: center;
+}
+
+.preçoeicon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #32b72f;
+  font-size: 20px;
+  display: none;
+}
+
+.selecionar {
+  border: 5px solid #32b72f;
+}
+.selecionar .icon {
+  display: inherit;
+}
+
+.botaoenviar {
+  background-color: #32b72f;
+  padding-top: 20px;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <p class="titulo">DrivenEats</p>
+      <p class="subtitulo">Sua comida em 6 minutos</p>
+    </header>
+    <main>
+      <div class="menu1">
+        <p class="prato">Primeiro, seu prato</p>
+        <div class="opcoescomida">
+          <div class="opcaocomida1" onclick="selecionarcom(this)">
+            <img
+              class="comidaimg"
+              src="./assets/frango_yin_yang 1.png"
+              alt=""
+            />
+            <p class="nome">Strogonoff</p>
+            <p class="descricao">Um pouco de batata, um pouco de salada</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 10,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="opcaocomida1" onclick="selecionarcom(this)">
+            <img class="comidaimg" src="./assets/Tropeiro.png" alt="" />
+            <p class="nome">Tropeiro</p>
+            <p class="descricao">Um delicioso Feijão Tropeiro</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 12,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="opcaocomida1" onclick="selecionarcom(this)">
+            <img class="comidaimg" src="./assets/Macarronada.png" alt="" />
+            <p class="nome">Macarronada</p>
+            <p class="descricao">Macarrão com molho bolonhesa</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 9,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu1">
+        <p class="prato">Agora, sua bebida</p>
+        <div class="opcoesbebida">
+          <div class="opcaocomida1" onclick="selecionarbeb(this)">
+            <img
+              class="comidaimg"
+              src="./assets/coquinha_gelada 1.png"
+              alt=""
+            />
+            <p class="nome">Coca-Cola</p>
+            <p class="descricao">Lata 350ml</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 4,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="opcaocomida1" onclick="selecionarbeb(this)">
+            <img class="comidaimg" src="./assets/Guarana.png" alt="" />
+            <p class="nome">Guarana</p>
+            <p class="descricao">Lata 350ml</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 4,50</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="opcaocomida1" onclick="selecionarbeb(this)">
+            <img class="comidaimg" src="./assets/SucoNatural.png" alt="" />
+            <p class="nome">Suco Tang</p>
+            <p class="descricao">Lata 350ml</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 5,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu1">
+        <p class="prato">Por fim, sua sobremesa</p>
+        <div class="opcoessobremesa">
+          <div class="opcaocomida1" onclick="selecionarsob(this)">
+            <img class="comidaimg" src="./assets/pudim 1.png" alt="" />
+            <p class="nome">Pudim</p>
+            <p class="descricao">Apenas pudim</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 7,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="opcaocomida1" onclick="selecionarsob(this)">
+            <img class="comidaimg" src="./assets/Cocada.png" alt="" />
+            <p class="nome">Cocada</p>
+            <p class="descricao">Cocada branca</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 5,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="opcaocomida1" onclick="selecionarsob(this)">
+            <img class="comidaimg" src="./assets/PalhaItaliana.png" alt="" />
+            <p class="nome">Palha Italiana</p>
+            <p class="descricao">A melhor palha italiana</p>
+            <div class="preçoeicon">
+              <p class="preço">R$<span> 6,90</span></p>
+              <ion-icon class="icon" name="checkmark-circle"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <!--<button id="a" class="enviar" onclick="teste()">
+          Selecione os 3 itens para fechar o pedido
+        </button> -->
+        <a id="a" class="enviar" onclick="teste()" href="#"
+          >Selecione os 3 itens para fechar o pedido</a
+        >
+      </footer>
+    </main>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
